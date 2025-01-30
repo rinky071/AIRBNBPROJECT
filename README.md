@@ -1,6 +1,7 @@
 
 <img width="943" alt="Image" src="https://github.com/user-attachments/assets/2fdc5d09-0e4c-4375-965f-87c90a04db86" />
 <img width="953" alt="Image" src="https://github.com/user-attachments/assets/3ee9bd4a-dd2e-4d21-8590-d05b9a1d8c5f" />
+<img width="952" alt="Image" src="https://github.com/user-attachments/assets/2bbbb2fb-c0fb-4a3f-88c2-0e923731a1d7" />
 
 
 **Employee Management System - Overview**
