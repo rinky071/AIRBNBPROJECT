@@ -3,72 +3,25 @@ Employee Management Sysytem
 
 The Employee Management System is a full-stack web application designed to manage employee records efficiently. It provides an intuitive interface for adding, updating, deleting, and viewing employee details. The system is built using Spring Boot (Java 11) for the backend and React.js for the frontend, ensuring a smooth and interactive user experience.
 
-## Available Scripts
+## Technologies Uses
 
-In the project directory, you can run:
+1. Backend (Spring Boot - Java 11)
+Developed using Spring Boot, which simplifies backend development and provides built-in support for REST APIs.
+Uses Spring Data JPA for database interaction, ensuring seamless CRUD operations on employee records.
+Spring Security (optional) can be used for authentication and role-based access control.
+The backend exposes RESTful APIs for frontend communication.
 
-### `npm start`
+**2. Frontend (React.js)**
+Developed using React.js to create a responsive and dynamic user interface.
+Utilizes React Hooks and Component-based architecture for efficient state management.
+Axios is used for making HTTP requests to interact with the backend.
+Provides an intuitive UI to manage employees, including add, edit, delete, and view options.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**3. Database (MySQL)**
+The application stores employee data in a relational database.
+Uses Spring Data JPA with Hibernate for ORM (Object Relational Mapping).
+Supports efficient querying and transactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# AirBnbProject
->>>>>>> 47876595ac60707e6abb39da0bb54144161dd02a
+**4.API Integration**
+The frontend interacts with the backend using REST APIs.
+The backend handles requests, processes data, and returns responses in JSON format.
